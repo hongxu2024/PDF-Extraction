@@ -3,7 +3,7 @@ This project aims at extracting metadata(including date, title, author, summary,
 <img src="https://github.com/user-attachments/assets/f1158803-7ed1-46e2-8b06-85af5810285c" width="260px">
 
 output:
-<img src="https://github.com/user-attachments/assets/64957101-e95d-4f39-8a8e-66924f56cc02" width="260px">
+<img src="https://github.com/user-attachments/assets/64957101-e95d-4f39-8a8e-66924f56cc02" width="400px">
 # How to run it
 # run extract_multiply_PDF_for_XML.py
 You will get XML files, including layout analysis result.
