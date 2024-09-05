@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search PDF Documents</title>
+</head>
+<body>
+    <h1>Search PDF Documents</h1>
+    <form method="POST">
+        <label for="query">Search Query:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if exact_results %}
+        <h2>Exact Search Results</h2>
+        <ul>
+        {% for result in exact_results %}
+            {% if 'Title' in result._source and 'Summary' in result._source %}
+            <li>
+                <strong>Title:</strong> {{ result._source.Title }}<br>
+                <strong>Author:</strong> {{ result._source.Author }}<br>
+                <strong>Date:</strong> {{ result._source.Date }}<br>
+                <strong>Keywords:</strong> {{ result._source.Keywords }}<br>
+                <strong>Summary:</strong> {{ result._source.Summary }}<br>
+            </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% if fuzzy_results %}
+        <h2>Fuzzy Search Results</h2>
+        <ul>
+        {% for result in fuzzy_results %}
+            {% if 'Title' in result._source and 'Summary' in result._source %}
+            <li>
+                <strong>Title:</strong> {{ result._source.Title }}<br>
+                <strong>Author:</strong> {{ result._source.Author }}<br>
+                <strong>Date:</strong> {{ result._source.Date }}<br>
+                <strong>Keywords:</strong> {{ result._source.Keywords }}<br>
+                <strong>Summary:</strong> {{ result._source.Summary }}<br>
+            </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

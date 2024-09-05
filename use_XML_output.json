@@ -1,0 +1,765 @@
+[
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Innifont: a parametric font generation system",
+        "Author": "CLYDE D. MCQUEEN III AND RAYMOND G. BEAUSOLEIL",
+        "Keywords": "Innifont Parametric Font generation system",
+        "Summary": "We have developeda high-performanceparametric font generation system for the creation andcommercial supply of digital fonts, and in particular, for generating a wide variety of digitaltypefaces using a single compact representation of typographic knowledge and characteristics.Typographicfeature detail can be added or removed, depending on the application. The systemdoesnotrely onmaster outlinesfor interpolation betweenor extrapolationfrom static typefaces.Our current implementation of this technology generates 50 Latin text characters per secondon a 25-MHz 80386 platform without the use of a mathematics coprocessor."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "The design of a Unicode font",
+        "Author": "CHARLES BIGELOW KRIS HOLMES",
+        "Keywords": "Unicode International character standard Type design Lucida",
+        "Summary": "The international scope of computing, digital information interchange, and electronic publish-ing has created aneedfor world-wide character encoding standards.Unicodeis acomprehensivestandard designed to meet such a need. To be readable by humans, character codes requirefonts that provide visual images glyphscorresponding to the codes. The design of a fontdeveloped to provide a portion of the Unicode standard is described and discussed."
+    },
+    {
+        "Date": "JANUARY 1988",
+        "Title": "Electronic publishing and computer science",
+        "Author": "DAVID F. BRAILSFORD",
+        "Keywords": "Electronic Publishing Computer Science PostScript Typesetters Abstraction",
+        "Summary": "Some of the common ground between electronic publishing and computer science has alreadybeen touched on in the editorial section of this issue. Further connections between the twoelds are highlighted in this brief paper and it is suggested that electronic publishing differsfrom other computer application areas because it benets not only from the brute-forceapplication of cheap computer power but also from the direct application of a host ofcomputer science concepts. The history of computers and typesetters is examined leading upto the electronic publishing era, followed by an appraisal of those computer science topicswhich have already been applied to problems in typesetting and publishing, and those whichseem poised for exploitation and application in the near future. The importance of abstractnotions and high-level ideas in the development of computer science  and hence in electronicpublishing  is pointed out."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Improving discrimination of symbols for display at low resolution",
+        "Author": "MARY C. DYSON",
+        "Keywords": "Symbols Perception Screen Hinting",
+        "Summary": "This research draws attention to the fact that the issues involved in rendering characters onscreen at low resolution are as relevant to symbols or icons as they are to letterforms. Theresults of research aimed at improving the perceptibility of letterforms on screen are used todevelop a set of modications that can be applied to symbols that have been scanned froman original design on paper. These modications are implemented in two stages: rule-basedmodications, followed by individual pixel editing. The effectiveness of these modicationsin improving the discriminability of symbols varying in graphic complexity is evaluated by aperceptualexperimentwhich comparesthe unmodied versionswith the two modied versions.Subjective judgements of each of the versions are also obtained. The results suggest that thesemodications can improve the discrimination of symbols on screen. However, the graphiccomplexity of symbols affects the type and extent of modications that can be made. This factormust therefore be considered in any development of automatic instructions for the renderingof symbols at low resolution."
+    },
+    {
+        "Date": "DECEMBER 1989",
+        "Title": "On integrated bibliography processing 1",
+        "Author": "MICHAEL A. HARRISON AND ETHAN V. MUNSON",
+        "Keywords": "Bibliography processing Document processing Integrated systems Annotations Forms-based query Reference inspection",
+        "Summary": "Bibliography processing systems are important to the production of scholarly and technicaldocuments. While the existing systems are a signicant aid to authors, their designs are not suf-cient to handle the demands that have arisen with their continued use. These demands includelarger bibliographic databases, sharing of databases among multiple authors, integration withdocument editors, and the desire for new features.This paper examines these issues as they are reected in three enhancements to thebibliography processing facilities of the GNU Emacs-Mode and TEX-Mode integratedediting environment. The added features were a reference annotation facility, supportof forms-based queries for automatic citation, and an enhanced reference inspection facility supportingWYSIWYG display of references. The design and implementation of the three features arediscussed in detail. Their relationship to other bibliography processing tools is discussed."
+    },
+    {
+        "Date": "DECEMBER 1989",
+        "Title": "Paragraph-based nearest neighbour searching in full-text documents",
+        "Author": "SULIMAN AL-HAWAMDEH AND PETER WILLETT",
+        "Keywords": "Best match searching Browsing Full-text documents Information retrieval Nearest neighbour searching Paragraph-based searching",
+        "Summary": "This paper discusses the searching of full-text documents to identify paragraphs thatare relevant to a user request. Given a natural language query statement, a nearestneighbour search involves ranking the paragraphs comprising a full-text document in order ofdescending similarity with the query, where the similarity for each paragraph is determinedby the number of keyword stems that it has in common with the query. This approach iscompared with the more conventional Boolean search which requires the user to specify thelogical relationships between the query terms. Comparative searches using 130 queries and 20full-text documents demonstrate the general effectiveness of the nearest neighbour model forparagraph-based searching. It is shown that the output from a nearest neighbour search canbe used to guide a reader to the most appropriate segment of an online full-text document."
+    },
+    {
+        "Date": "DECEMBER 1989",
+        "Title": "Some computational properties of a model for electronic documents",
+        "Author": "TREVOR J. M. BENCH-CAPON AND PAUL E. DUNNE",
+        "Keywords": "Document models Graph modication systems Electronic documents",
+        "Summary": "Differing types of documents exhibit varying structures. These may arise, at one level,because of the material comprising the text  thus textbooks will be organized differentlyfrom research papers  and at a lower level as a result of the layout conventions bywhich the text is formatted.These structuring regimes may be seen as dening a set ofconstraints which a document within a specic class must satisfy.In this paper weexamine the model recently proposed in Reference [1] which is used for representing andmodifying electronic documents. This employs simple graph grammars as a means oftranslatingchangesin the document structure into modications to the computerrepresentation. The aim of this approach is to provide computer support which will allowthe appropriate structural conventions to be preserved while the document is beingedited. We consider the following problem with this method: given a set of constraintswhich the document must satisfy and a collection of rules prescribing how the documentrepresentation may be modied, how does one prove that documents which obey theconstraints can be generated by repeated applications of the rules? We describe one wayin which this question can be more precisely formulated and call this the problem. It is shown that, in general, this problem cannot be solved. We thenoutline how, for practical applications, the consistency checking problem may be solvedfor certain special cases."
+    },
+    {
+        "Date": "MAY 1990",
+        "Title": "On improving SGML",
+        "Author": "MICHAEL J. KAELBLING",
+        "Keywords": "Ambiguity LALR(1) Grammars Language Denitions Parsing SGML Standards",
+        "Summary": "Several improvements are suggested to the syntax of SGML, the recent international standardfor the description of electronic document types. These improvements ease processing byexisting tools, remove ambiguity cleanly, and increase human usability. They also indicatesome guidelines that should be followed in the design and specication of computer-software standards. By following accepted computer-science conventions for the descriptionof languages the design of a standard may be improved, and the subsequent implementationtask simplied."
+    },
+    {
+        "Date": "FEBRUARY 1990",
+        "Title": "A function-based formatting model",
+        "Author": "BO STIG HANSEN",
+        "Keywords": "Text formatting Document processing models Functional programming Special-purpose languages",
+        "Summary": "The work presented here concerns a document processing model accounting for aspects of anactivity which is usually called formatting. The core of the model, an experimental formattinglanguage called FFL, is the central topic.FFL is a purely functional language in the style of FP and the applicative part of APL.Sequences, characters, and so-called boxes constitute the data types and among the build-inprimitives are functions for aligning/spacing, breaking etc. Emphasis is put on presenting thelanguage and exemplifying its use.Also considered are issuesin type checking offormatting function denitions and techniquesfor doing incremental formatting with FFL formatting functions.FFL is currently being implemented by the BENEDICK project group led by the author."
+    },
+    {
+        "Date": "FEBRUARY 1990",
+        "Title": "Authoring large hypermedia documents with IGD",
+        "Author": "STEVEN K. FEINER",
+        "Keywords": "Hypermedia Hypertext User interfaces Document editors IGD Directed-graph editors",
+        "Summary": "The IGD (Interactive Graphical Documents) hypermedia system was designed to makepossible interactive presentations that can be explored by and customized for individualusers. We describe IGDs authoring facilities through an annotated excerpt from an editingsession, emphasizing how the systems document model and user interface help support thecreation of large documents.Although we feel that IGD successfully addressed some of the issues of scale, experiencewith the system has convinced us that it is wrong to cast many of the problems of authoringlarge hypertexts as ones that can be solved by implementing editors of sufcient scope andsophistication. We believe that hypertext design systems based on direct editing of documentsinherit many of the bottlenecks associated with the conventional document authoring process.These problems are compounded by the added intellectual burden of designing a connectivestructure of keyworded links. We contrast the reality of the author-centered, editor-basedapproach to document design and layout, exemplied by IGD, with the promise of aknowledge-based, automated alternative, and discuss why we feel that many of the facilitiesprovided by IGD will still be useful even if presentations can be created entirelyautomatically."
+    },
+    {
+        "Date": "FEBRUARY 1990",
+        "Title": "Convergent publication, or the hybrid journal:paper plus telecommunications",
+        "Author": "W. P. DODD",
+        "Keywords": "Learned Journals Electronic Publishing Electronic Journals Computer Teleconferencing",
+        "Summary": "The majority of research studies of the electronic journal have concentrated on producinga computer-based near-replica of the printed paper journal. This article argues that such anapproach is inappropriate and suggests that a complementary, computer plus paper, approachmight have advantages. The article discusses the advantages and disadvantages of the paperproduct, then briey reviews the research on electronic journals before discussing theiradvantages and disadvantages. The strengths and weaknesses of both paper and electronicformats are then compared, and from this comparison a proposal is made for the creation of ahybrid journal system combining the strengths of both media."
+    },
+    {
+        "Date": "MAY 1990",
+        "Title": "A note on digitized angles",
+        "Author": "DONALD E. KNUTH",
+        "Keywords": "Pixels (pels), Digitized images, Arrows, Angle bisection, Bresenham algorithm",
+        "Summary": "We study the congurations of pixels that occur when two digitized straight lines meeteach other. The exact number of different congurations is calculated when the lines haverational slopes. This theory helps to explain the empirically observed phenomenon that thetwo halves of an arrowhead dont look the same."
+    },
+    {
+        "Date": "MAY 1990",
+        "Title": "Active Tioga documents:an exploration of two paradigms",
+        "Author": "DOUGLAS B. TERRY AND DONALD G. BAKER 1",
+        "Keywords": "Active documents Structured document editors User interfaces Databases",
+        "Summary": "The advent of electronic media has changed the way we think about documents. Documentswith illustrations, spreadsheets, and mathematical formulae have become commonplace, butdocuments with active components have been rare. This paper focuses on our extensions tothe Tioga editor to support two very different styles of active documents. One paradigminvolves dynamically computing, or at least transforming, the contents of a document as it isdisplayed. A second paradigm uses notications of edits to a document to trigger activities.Document activities can include database queries, which are evaluated and placed in thedocument upon opening the document, or constraints between portions of a document, whichare maintained as the user edits the document. The resulting active documents can be viewed,edited, led, and mailed in the same way as regular documents, while retaining theiractivities."
+    },
+    {
+        "Date": "AUGUST 1990",
+        "Title": "Hypertext presentation of thesauri used in online searching",
+        "Author": "RICHARD POLLARD",
+        "Keywords": "Hypertext Thesauri Online searching Guide",
+        "Summary": "In this article we explore the strengths and limitations of hypertext for the online presentationof thesauri used in information retrieval. We examine the ability of hypertext to supporteach of three common types of thesaurus display: graphic, alphabetical, and hierarchical.Graphic displays generated by hypertext browsers appear to be inferior to their printedcounterparts. The simple alphabetical display can be easily mapped onto hypertext systemsbut has the inherent disadvantage of not showing a full hierarchy at the entry point for a term.Hierarchical displays are well suited to hypertext presentation but do not include denitionalor complete relational information. We present a design for a hypertext-based hierarchicaldisplay that addresses many inadequacies of printed hierarchical displays. We also illustratehow this design might be implemented using a commercially available hypertext system.Finally, we consider issues related to the implementation and evaluation of hypertext-basedthesauri."
+    },
+    {
+        "Date": "NOVEMBER 1990",
+        "Title": "A functional meta-structure for hypertext models and systems 1",
+        "Author": "RICHARD FURUTA 2AND P. DAVID STOTTS 3",
+        "Keywords": "Hypermedia Hypertext Meta-model Model Reference model Structure Trellis",
+        "Summary": "We describe a hypertext meta-structureone that provides an organization for the archi-tecture of hypertext models and systems. The meta-structure was initially developed to helpus understand the architecture of a specic hypertext model (the Trellis hypertext model).However, its organization seems generally applicable to a wide range of other models andsystems as well. As such, the meta-structure is a good candidate for a high-level hypertext, and so we refer to it as the, or the. Ther-model represents a hypertext at ve levels of abstractiontwo abstract levels, two concretelevels, and one visible level. In this paper, we present the r-model, use it to classify fourdifferent hypertext (and hypertext-like) systems, and then discuss its relationship to varioushypertext-dened concepts."
+    },
+    {
+        "Date": "AUGUST 1990",
+        "Title": "Database support for very large hypertexts",
+        "Author": "B. N. ROSSITER AND T. J. SILLITOE M. A. HEATHER",
+        "Keywords": "Databases Hypertext Paths Trail management Composite objects",
+        "Summary": "Current hypertext systems have been widely and effectively used on relatively small datavolumes. The potential of database technology is explored for aiding the implementationof hypertext systems holding very large amounts of complex data. Databases meet manyrequirements of the hypermedium: persistent data management, large volumes, datamodelling, multi-level architecture with abstractions and views, metadata integrated withoperational data, short-term transaction processing and high-level end-user languages forsearching and updating data. To illustrate the potential for the use of databases, a systemimplementing the storage, retrieval and recall of trails through hypertext comprising textualcomplex objects is described. Weaknesses in current database systems for handling thecomplex modelling required are discussed."
+    },
+    {
+        "Date": "NOVEMBER 1990",
+        "Title": "Examining usability for a training-oriented hypertext: Can hyper-activity be good?",
+        "Author": "TRICIA JONES 1AND BEN SHNEIDERMAN",
+        "Keywords": "Hypermedia Hypertext Hyperties Training",
+        "Summary": "We describe the design and evaluation of a hypertext-basedtutorial for hypertextauthors. This85-article tutorial represents an innovative application of hypertext to procedural learning.The work has been inuenced by Carrolls minimalist model, and by the syntactic/semanticsemantic model of user behavior. The usability study involved eight subjects who studied theHyperties Author Tutorial (HAT) for approximately one hour and then performed a set ofauthoring tasks in an average of 21 minutes. All users successfully completed the tasks. As aresult of the study, we provide a characterization of appropriate uses of hypertext for training,and describe the meaning of a hyper-active environment."
+    },
+    {
+        "Date": "NOVEMBER 1990",
+        "Title": "Node popularity as a hypertext browsing aid",
+        "Author": "R. PAUSCH AND J. DETMER",
+        "Keywords": "Hypertext Browsing Node relevance User study Popularity",
+        "Summary": "We have performed a user study where the popularity of each node in a hypertext databasewas presented with the links leading to that node. Popularity was computed by counting thenumber of users who had previously visited the node.Our users clearly incorporatedpopularity information in their decisions; we compare their browsing patterns with a controlgroup for whom the popularity information was not provided. One possible use of popularitycan be to offset the previously documented trait of users to over-select items near the top orbottom of a linear list. We document that popularity information affects user behavior, butwe do not necessarily advocate its use. Incorporating popularity information raises otherquestions of design and ethics which are beyond the scope of this paper."
+    },
+    {
+        "Date": "AUGUST 1990",
+        "Title": "Hypertext writing and document reuse:the role of a semantic net",
+        "Author": "ROY RADA",
+        "Keywords": "Semantic net Document reuse Linearization",
+        "Summary": "When document components are classied and then recombined during document reuse, asemantic net may serve as the classication language. A theory of analogical inheritance,applied to this semantic net, guides the reorganization of document components. Authorsindex paragraphs from various sources with node-link-node triples from a semantic netand then use programs to traverse the semantic net and generate various outlines.Theprogram examines node and link names in deciding which path to take.This paperdescribes how these techniques helped the author to reuse parts of an existing book towrite a new one."
+    },
+    {
+        "Date": "MARCH 1991",
+        "Title": "Numbering document components 1",
+        "Author": "MICHAEL A. HARRISON AND ETHAN V. MUNSON",
+        "Keywords": "Structured documents Component numbering Incremental update Interactive systems Last/previous algorithm Declarative specication",
+        "Summary": "Numbering document components such as sections, subsections, gures and equations giveseach component a unique identier and helps the user locate the component when it is cross-referenced. This paper discussesways in which such numbering can be described and proposesa simple paradigm for declarative specication of how components should be numbered. Theclass of algorithms for incremental update of component numbers is studied and the bestsuch algorithm is developed in detail."
+    },
+    {
+        "Date": "MARCH 1991",
+        "Title": "Considerations for the preparation of SGML document type denitions",
+        "Author": "SANDRA A. MAMRAK 1J. A. BARNES",
+        "Keywords": "Data representation Document Type Denitions Standard Generalized Markup Language",
+        "Summary": "The Standard Generalized Markup Language, SGML, is being adoptedbyvarious internationalorganizations as the medium for exchange of electronically encoded documents. An exchangeis accomplished by way of a Document Type Denition, DTD, that describes the content ofdocuments targeted for an exchange. In this paper we suggest considerations for the designersof SGML DTDs. The considerations emphasize uniformity and simplicity without sacricingexpressive power. The considerations are not comprehensive: they address minimizationfeatures, attributes, inclusion and exclusion exceptions, and the CONCUR feature of SGML."
+    },
+    {
+        "Date": "MARCH 1991",
+        "Title": "Processing SGML documents",
+        "Author": "JOS WARMER 1HANS VAN VLIET",
+        "Keywords": "SGML Parser generators Application generators Data translation Structured documents Reusability",
+        "Summary": "SGML (Standard Generalized Markup Language) is an ISO Standard that species alanguage for document representation. The main idea behind SGML is to strictly separatethe structure and contents of a document from the processing of that document. This resultsin application-independent and thus reusable documents. To gain the full benet of thisapproach, tools are needed to support a wide range of applications. The Standard itself doesnot dene how to specify the processing of documents. Many existing SGML systems allowfor a simple translation of an SGML document, which exhibits a 11 correspondence betweenelements in the SGML document and its translation. For many applications this does notsufce. In other systems the processing can be expressed in a special-purpose programminglanguage. In this paper the various approaches to processing SGML documents are assessed.We also discuss a novel approach, taken in the Amsterdam SGML Parser. In this approach,processing actions are embedded in the grammar rules that specify the document structure,much like processing actions are embedded in grammars of programming languages that areinput to a parser generator. The appendix contains an extended example of the use of thisapproach."
+    },
+    {
+        "Date": "JUNE 1991",
+        "Title": "A model and toolset for the uniform tagging of encoded documents",
+        "Author": "JULIE A. BARNES SANDRA A. MAMRAK",
+        "Keywords": "Data translation Lexical analysis Automatic code generation",
+        "Summary": "In this paper we presenta new, abstractmodel for textual data objects with embeddedmarkup.Based on the model, we propose a uniform representation for these objects that borrows itsconcrete syntax from the ISO standard SGML. Such a uniform representation will greatlyfacilitate the development of software that analyzes, formats or otherwise processes theseobjects. We then describe a toolset that supports the retagging of existing encoded data objectsto the new uniform representation. Our experience with the toolset demonstrates a savings ofapproximately 10:1 over a retagging effort without the toolset."
+    },
+    {
+        "Date": "SEPTEMBER 1991",
+        "Title": "Digital punch cutting",
+        "Author": "PETER KAROW",
+        "Keywords": "Digital typefaces Hand-digitizing IKARUS format Auto-tracing Font technology Intelligent font scaling",
+        "Summary": "Digital punch cutting is todays font technology. There are three different methods availablefor getting alphabets into digital form : hand-digitizing, auto-tracing and direct design on aworkstation screen. The advent of intelligent font scaling requires us to ensure the opticalquality of a font and also the numerical quality of its data; this, in turn, means that newprocedures have to be added to the font production process. Furthermore, a given typefacehas to be rendered on a wide variety of output devices ranging from computer displays,printers (dot-matrix, laser, inkjet or thermal-transfer) and typesetters (CRT or laser) to themore exotic devices such as plotters, vinyl-cutters and routers. To deal with this it isnecessary to set up a database of font data, in a machine-independent format such asIKARUS. This enables us to cope with the long life cycles of typefaces and also to servepresent and future applications by converting the IKARUS data into various machine-specicformats."
+    },
+    {
+        "Date": "JUNE 1991",
+        "Title": "Information retrieval in hypertext systems:an approach using Bayesian networks",
+        "Author": "JACQUES SAVOY AND DANIEL DESBOIS",
+        "Keywords": "Hypertext Information retrieval Information retrieval in hypertext Bayesian network Probabilistic retrieval model Probabilistic inference Uncertainty processing",
+        "Summary": "The emphasis in most hypertext systems is on the navigational methods, rather than on theglobal document retrieval mechanisms. When a search mechanism is provided, it is oftenrestricted to simple string matching or to the Boolean model. As an alternate method, wepropose a retrieval mechanism using Bayesian inference networks. The main contributionof our approach is the automatic construction of this network using the expected mutualinformation measure to build the inference tree, and using Jaccards formula to dene xedconditional probability relationships."
+    },
+    {
+        "Date": "JUNE 1991",
+        "Title": "Using logical objects to control hypertext appearance",
+        "Author": "P. J. BROWN",
+        "Keywords": "Hypertext Logical object Font Guide",
+        "Summary": "It is accepted wisdom that documents should be represented in terms of their logical structurerather than their appearance. Nevertheless most of the popular document processing systemsconcentrate on appearance rather than structure, mainly because most users opt for a userinterface that is interactive, simple and direct.This paper considers issues related to fonts and other appearance attributes within hyper-text documents. It rst presents the relevant differences between hypertext systems and doc-ument preparation systems whose end product is paper. It then goes on to describe a schemefor representing appearance through logical structure. The scheme aims to meet the extraneeds of hypertext systems, and yet still to be simple enough to attract wide usage."
+    },
+    {
+        "Date": "SEPTEMBER 1991",
+        "Title": "Ritaan editor and user interface for manipulating structured documents",
+        "Author": "D. D. COWAN, E. W. MACKIE, and G. M. PIANOSI G. de V. SMIT",
+        "Keywords": "Document manipulation Finite state automata User interfaces Incomplete documents Structured documents Syntax-directed editing Partial documents",
+        "Summary": "Structured documents such as those developed for SGML, GML or usually contain acombination of text and tags. Since various types of documents require tags with differentplacement, the creator of a document must learn and retain a large amount of knowledge. Ritaconsists of an editor and user interface which are controlled by a grammar or description of adocument type and its tags, and which guide the user in preparing a document, thus avoidingthe problems of tags being used or placed incorrectly. The user interface contains a displaywhich is almost WYSIWYG so that the appearanceof the documentcan be examined while it isbeing prepared. This paper describes Rita, its user interface and some of its internal structureand algorithms, and relates anecdotal user experiences. Comparisons are also made with othercommercial and experimental systems."
+    },
+    {
+        "Date": "DECEMBER 1991",
+        "Title": "Nearest-neighbour searching in les of text signatures using transputer networks",
+        "Author": "JANEY K. CRINGEAN ROGER ENGLAND",
+        "Keywords": "Best-match searching Full-text documents Geometric parallelism Information retrieval Nearest-neighbour searching Parallel processing Processor farm Text signature Transputer network",
+        "Summary": "This paper discusses the implementation of nearest-neighbour document retrieval in serialles using transputer networks. The system uses a two-stage retrieval algorithm in which aninitial text-signature search is used to exclude large numbers of documents from the detailedand time-consuming pattern-matching search. The latter is implemented using a processorfarm, so that documents which match at the signature level can be examined in parallel todetermine whether they are, in fact, a good match for the query. The results demonstrate thatcommunication is the critical factor in all of the transputer networks that were investigated.A high degree of speed-up can be obtained when only the pattern-matching search is carriedout. When text signatures are used, however, the speed-up is less, decreasing in line with anincrease in the size of the text signatures that are used."
+    },
+    {
+        "Date": "DECEMBER 1991",
+        "Title": "NRT: news retrieval tool",
+        "Author": "MARK SANDERSON AND C. J. VAN RIJSBERGEN",
+        "Keywords": "Weighted key term information retrieval Relevance feedback Wide area networks User interfaces",
+        "Summary": "The amounts ofinformation thatmankind producesarevast, runninginto billions ofdocuments.Traditional ways of holding this information have become impracticable and so methods ofstorage are being switched from paper and microche to magnetic and optical disks. In the lastthirty years, as more information has been put onto computers, work has gone into using thecomputer to get away from the restrictiveness of manual indexing and move towards a moreexible system of information acquisition.Many companies offer (for a price) the opportunity to access the information stored ontheir systems. Unfortunately, most of these companies use software that was developed in thesixties when the eld of information retrieval (IR) was still very young. This means that theservices they offer are rather primitive. The Financial Times IR service, Prole is typicalof such commercial systems. It has been the aim of the NRT project to investigate ways ofincorporating into Prole the new ideas in IR, that have occurredin the last ten to fteen years."
+    },
+    {
+        "Date": "DECEMBER 1991",
+        "Title": "Issues of data modelling in information retrieval",
+        "Author": "M. AGOSTI R. COLOTTI G. GRADENIGO",
+        "Keywords": "Data modelling in information retrieval Data representation by content Text representation by content Information retrieval model Information retrieval conceptual architecture Auxiliary data Hypertext information retrieval Hypertext capabilities",
+        "Summary": "This paper addresses the problem of data modelling in information retrieval. The studyintroduces various aspects andissues thatare necessarily taken into accountwhen designing anddeveloping an information retrieval system. Particular attention is paid to the representationof the different types of data managed by an information retrieval application: structured andunstructured data.A recently introduced information retrieval, data modelling approach supports the notionof a schema permitting representation of the information retrieval data on two different levels:intensional and extensional. The characteristics of this data modelling approach are presentedhere together with examples of its use in a working prototype."
+    },
+    {
+        "Date": "MARCH 1992",
+        "Title": "Automatic structuring of text les 1",
+        "Author": "GERARD SALTON, CHRIS BUCKLEY AND JAMES ALLAN",
+        "Keywords": "Text structuring Text retrieval Automatic indexing Automatic text analysis Automatic text linking Automatic hypertext construction",
+        "Summary": "In many practical information retrieval situations, it is necessary to process heterogeneoustextdatabases that vary greatly in scope and coverage, and deal with many different subjects. Insuch an environment it is important to provide exible access to individual text pieces, and tostructure the collection so that related text elements are identied and appropriately linked.Methods are described in this study for the automatic structuring of heterogeneous textcollections, and the construction ofbrowsingtoolsandaccessproceduresthatfacilitate collectionuse. The proposed methods are illustrated by performing searches with a large automatedencyclopedia."
+    },
+    {
+        "Date": "MARCH 1992",
+        "Title": "Important papers in the history of document preparation systems: basic sources",
+        "Author": "RICHARD FURUTA 1",
+        "Keywords": "Document preparation Text processing Document manipulation Formatting",
+        "Summary": "This report provides a narrative description of inuential papers that discuss computer-baseddocument preparation systems. The reports focus is on the systems actually used to preparedocumentseditors and formatters, and the goal is to provide an introduction to the papersthat have been inuential on the community of researchers who investigate such systems."
+    },
+    {
+        "Date": "SEPTEMBER 1992",
+        "Title": "On the interchangeability of SGML and ODA",
+        "Author": "CHARLES K. NICHOLAS 1 AND LAWRENCE A. WELSCH",
+        "Keywords": "SGML ODA ODL Document interchange",
+        "Summary": "SGML and ODA are international standards for the markup and interchange of electronicdocuments. These standards are incompatible, in the sense that in general a documentencoded using SGML cannot be used directly in an ODA-based system, and vice versa. Werst describe these two standards, and suggest criteria under which a bridge between the twostandards could be evaluated. We then evaluate the Ofce Document Language (ODL), anSGML application specically designed for ODA documents, with respect to these criteria.We describe conditions under which reliable automatic translation between SGML and ODAcan be achieved, and describe a translation program that converts SGML documents to ODAand back."
+    },
+    {
+        "Date": "JUNE 1992",
+        "Title": "Teaching electronic publishing:a Scottish example",
+        "Author": "ALISTAIR McCLEERY",
+        "Keywords": "Publishing Teaching Electronic publishing Desktop publishing Non-print publishing Simulation",
+        "Summary": "This paper outlines the background to the introduction of an electronic (non-print) publishingstrand to an undergraduate degree in publishing. The degree has already successfully incorpo-rated desktop publishing throughout its editorial, production and marketing strands. Desktoppublishing had enabledfullment of a primary educationalaim of the courseto integrate theoryand practice but challenges remain before the commercial production of electronic (non-print)publications can be undertaken by students with equal facility."
+    },
+    {
+        "Date": "JUNE 1992",
+        "Title": "Teaching electronic publishing:a Scottish example",
+        "Author": "ALISTAIR McCLEERY",
+        "Keywords": "Publishing Teaching Electronic publishing Desktop publishing Non-print publishing Simulation",
+        "Summary": "This paper outlines the background to the introduction of an electronic (non-print) publishingstrand to an undergraduate degree in publishing. The degree has already successfully incorpo-rated desktop publishing throughout its editorial, production and marketing strands. Desktoppublishing had enabledfullment of a primary educationalaim of the courseto integrate theoryand practice but challenges remain before the commercial production of electronic (non-print)publications can be undertaken by students with equal facility."
+    },
+    {
+        "Date": "JUNE 1992",
+        "Title": "Marking EP coursework using electronic communication",
+        "Author": "P. J. BROWN AND R. E. JONES",
+        "Keywords": "Assessment Coursework Electronic publishing Hypertext Test harness Virus",
+        "Summary": "This paper discussesexperienceof getting students undertaking EP courseworkto submit theirwork electronically. This has a surprising number of advantages, beyond the obvious saving ofpaper, though there are disadvantages too."
+    },
+    {
+        "Date": "JUNE 1992",
+        "Title": "Teaching electronic publishing to computer scientists",
+        "Author": "H. BROWN AND I. A. UTTING",
+        "Keywords": "Computer scientists Electronic publishing Principles Design",
+        "Summary": "This paper discusses some of the issues involved in teaching electronic publishing to under-graduates specializing in computer science. It attempts to identify the signicant differencesbetween a course designed primarily for users and a course designed for specialists who mayalso become future developers and implementers."
+    },
+    {
+        "Date": "JUNE 1992",
+        "Title": "Teaching digital typography 1",
+        "Author": "JACQUES ANDR E ROGER D. HERSCH",
+        "Keywords": "Digital typography Curriculum Tuition",
+        "Summary": "Digital typographyis a very specializedeld that offers two widely different yet complementaryaspects:artandcomputerscience.This paperpresentsProjectDidot, which is all aboutteachingdigital typography. While taking into account recent experience, the authors explore somesubjects that should be included in a digital typography course and describe the various tradesit would be aimed at. This paper concentrates on the computer science aspect and gives a basicbibliography."
+    },
+    {
+        "Date": "JUNE 1992",
+        "Title": "The curriculum as a hypertext",
+        "Author": "MARY C. DYSON",
+        "Keywords": "Hypertext Electronic publishing Curriculum Document preparation Information retrieval",
+        "Summary": "In this paper the interdisciplinary nature of electronic publishing is addressed by raising twoissues relating to the content and structure of an electronic publishing course. The rst iswhether it is possible to agree upon a generic curriculum, based on a set of headings or topics,which may be treated quite differently by those in different disciplines (e.g. typographers,computer scientists). The second related issue is whether it is appropriate to set down a singlestructure which puts topics under specic headings, given the interdisciplinary nature of thesubject.A course on the theory of electronic publishing given to typography students is used asan example of the type of material that might be covered and how it may be structured. AHyperCard has been developed alongside part of this course. The way in which this subject tsin with the course in Typography & Graphic Communication as a whole is briey described.It is proposed that hypertext systems go some way towards providing students with alter-native structures for organizing their knowledge of electronic publishing. This platform couldtherefore be used as the basis for a core curriculum from which various material is developedand structures created."
+    },
+    {
+        "Date": "SEPTEMBER 1992",
+        "Title": "ALIVE : A distributed live-link documentation system",
+        "Author": "SILVANO POZZI AUGUSTO CELENTANO LUISA SALEMME",
+        "Keywords": "Desktop publishing Hypertext links Relational databases Network communication User-friendly interface",
+        "Summary": "This paper presents the project, which has been developed at Italtel to provide themeans for automatic management of technical documentation. The main goal of is toenable the user of a technical publishing system to establish live-links with data stored onremote databases. Live-links allow for automatic update of a document with databasecontents: whenever a modication occurs in the database data referenced from the documenttext, the document is updated accordingly.The user interface has been implemented by exploiting the functionality offered bythe Interleaf1 technical publishing environment, providing the user with a fully integratedenvironment. It allows the user to browse through a description of the available databasesand to formulate queries related to data stored in them by means of a menu-based interface.By enriching technical publishing features with data consistency controls in a uniformway, moves towards the integrated desktop concept."
+    },
+    {
+        "Date": "SEPTEMBER 1992",
+        "Title": "Granularity in structured documents",
+        "Author": "FRANS C. HEEMAN  1",
+        "Keywords": "Structured documents Granularity Generic logical structure Grif ODA SGML",
+        "Summary": "Structured documents have become a widely accepted concept for document manipulationapplications like editing, formatting, and archiving. However, some aspects of structured docu-ments are still not well understood. In particular, the transition in structured documents fromlogical structure to contents, is a grey area in which different systems use different interpreta-tions.In this article, we discuss this aspect of structured documents. We focus on theunderlying concepts of structured documents without referring to any application, so that thisdiscussion is kept clear from aspects that are not related to structured documents."
+    },
+    {
+        "Date": "JUNE 1993",
+        "Title": "Canto: a hypertext data model",
+        "Author": "CHARLES K. NICHOLAS LINDA H. ROSENBERG 1",
+        "Keywords": "Hypertext data model Hypertext schema Hypertext testing Z specication",
+        "Summary": "The Canto hypertext data model is characterized by a hierarchical schema mechanism thatallows a predetermined, open-endedschema to be embedded in the hyperdocument.Canto usestwo types of nodes: concept nodes, which provide organizational structure, and informationnodes, which contain text and other data. The operations provided by the Canto Data Modelare dened formally using the Z specication language. The Canto Schema Language gives thehypertext designer access to these operations. We show that the operations dened in Cantopreserve properties of accessibility and data integrity. We evaluated Canto with a controlledexperiment involving human users. These tests showed that a hypertext system developedwith Canto was easier to use than an otherwise similar system that did not employ a schemamechanism.Severalapplicationshavebeendevelopedusing Canto.One suchapplication,whichwe describe in some detail, involves the use of Canto to teach students the skill of programreading."
+    },
+    {
+        "Date": "DECEMBER 1992",
+        "Title": "EP-odds and ends",
+        "Author": "",
+        "Keywords": "Structured documents Editing Document classes",
+        "Summary": "Creating structured documentswhere every document element belongs to a classhas manywell-known advantages. Using generic document styles to dene and constrain the hierarchicalrelationships between the different classes of element also has many advantages, but causessignicant problems in interactive editing. The recent paper on Rita [1] providednew insights into the possibilities and problems of editing structured documents. This EP-odds and ends sketches some additional problems and suggests alternative solutions based onthe idea of."
+    },
+    {
+        "Date": "MARCH 1993",
+        "Title": "Separation of concerns for indexing",
+        "Author": "DAVID ALEX LAMB AND MARGARET ANNE LAMB",
+        "Keywords": "Document preparation Indexes",
+        "Summary": "Separation of concerns is a fundamental principle for managing conplex tasks. Previous toolsfor assisting in generating back-of-the-book indexes do not apply this principle as thoroughlyas they might; in particular, most confuse two issues: recording where references occur in themain text, and deciding what terms should appear in the index. This paper describes ageneral facility for multi-level indexes that embodies this principle, usable in any documentformatter that can produce a secondary output le recording page numbers where referencesoccur. LATEX,, and/ fall in this category."
+    },
+    {
+        "Date": "JUNE 1993",
+        "Title": "Design and implementation of the HB1 hyperbase management system",
+        "Author": "JOHN L. SCHNASE JOHN J. LEGGETT, DAVID L. HICKS,PETER J. NUERNBERG, AND J. ALFREDO S ANCHEZ",
+        "Keywords": "Hyperbase management system Hypermedia Hypertext Open hypermedia system architecture Inter-application linking Semantic object-oriented database management system",
+        "Summary": "Hypermedia systems manage interconnected information residing within a potentially widerange of data types, including text, graphics, animations, and digitized sound and images.Effective databasesupportfor hypermedia-basedcomputing environmentsis essential.In orderto be effective, this support must provide a variety of capabilities that are not offered bythe current generation of database management systems. We report on a prototypic systemcalled HB1 that has been designed to meet the storage needs of advanced hypermedia systemarchitectures. HB1 is referred to as a hyperbase management system (HBMS) because it storesand manipulates information and the connectivity data that link information together to formhypermedia.HB1 is composed of three subsystems:the Object Manager (OM), Association Set Manager(ASM), and Storage Manager (SM). OM and ASM are both server processes accessible todistributed client processes via IPC interfaces. OM is an object server. ASM manages struc-tural data applicable to the objects within OMs repository that are involved in hypermediaconnections. Physical storage is managed by SM which, in this implementation, is a semanticnetwork database management system. HB1 instantiates a conceptual model of hypermediathat is distinctly computational, has a strong notion of anchor and link, and abstracts infor-mation, behavior, and structure from hypermedia. It has been used as a back-end for an open,object-based hypermedia system that implements distributed, inter-application linking. HB1 isproving to be an effective vehicle for research on HBMS organization."
+    },
+    {
+        "Date": "MARCH 1993",
+        "Title": "Developing an awareness of typographic letterforms",
+        "Author": "LADISLAS MANDEL",
+        "Keywords": "Typographic writing Functions Technique Visibility Legibility Cultural identity Picture-words",
+        "Summary": "This paper examines the role of letterforms as a means of communication, starting withhand-set metal type and mechanical typesetting in hot metal. Present-day techniques ofphototypesetting, and of digital typesetting, via cathode-ray tube and laser machines, are alsodiscussed. Careful attention is paid to the cultural impact of these techniques, with particularreference to traditional French typefaces which often have small x-height and very thinhairlines (which can disappear at small point sizes). Reference is also made to the impact ofeach of these modern typesetting methods on both informational and cultural texts.A strong argument is presented that a nations typefaces encapsulate its national spiritand its culture. For this reason, it is regrettable that the advent of laser-driven imaging dev-ices has brought with it an anglicization of many fonts, via an increase in x-height, and areluctance to countenance a non-linear variation of letterforms and set-width with pointsize  a characteristic so crucial to the readability of classic texts. A plea is made for therapidly developing computer technology to be deployed in the interests of as well as. Modern techniques have all the advantages of photographic sharpness but this mustbe harnessed to the traditional subtleties of the original typeface design if the intentions, andthe cultural identity, of the typeface designer are to be truly respected."
+    },
+    {
+        "Date": "JUNE 1993",
+        "Title": "Structure extraction and automatic hinting of Chinese outline characters",
+        "Author": "SEUNG WOON PARK AND SEUNG RYOUL MAENG",
+        "Keywords": "Automatic hinting Font rasterization Outline font Chinese character",
+        "Summary": "In spite of a worldwide trend towards the use of outline fonts for displays and for printingdevices, they are still not very common in the east Asian countries where Chinese charactersare used. The reason for this is that the complex, structured shapes of Chinese characters takea long time to design and develop.Several systems have proposed automatic generation of outline fonts from the originalmaster fonts. These systems have the serious problem of quality degradation when rasterizingthe font at small point sizes, because they do not incorporate a hinting mechanism to adjust theoutlines under these circumstances.In this paper, we present an experimental study on a hinting mechanism specially designedfor Chinese-style characters. We propose a scheme which automatically generates the hintedoutline data from the plain outline fonts.We have implemented and experimented with four sets of Korean Myungjo (Ming) andGothic style fonts, and have obtained good results with respectto font quality and developmenttime."
+    },
+    {
+        "Date": "MARCH 1994",
+        "Title": "A hypertext electronic index based on the Grif structured document editor",
+        "Author": "H EL`ENE RICHY",
+        "Keywords": "Grif Hypertext Index Structured document",
+        "Summary": "This paper presents an electronic index service that was developed in the Grif editor by takingadvantage of the hypertext facilities available in the system. Grif is a structured documenteditor based on the generic structure concept that supports both hierarchical structures andnon-hierarchical links.The active cross-reference within the Grif index makes activation and browsing throughindexing more powerful than in other systems: the index tables, helpful as a medium forsupportingsearch by keywordsin paper documents,supportbrowsing in electronic documents.These indexes are easy to use as they are displayed in the same form as indexes in a paperdocument."
+    },
+    {
+        "Date": "JUNE 1994",
+        "Title": "Making structured documents active",
+        "Author": "VINCENT QUINT 1 AND IR`ENE VATTON 2",
+        "Keywords": "Active documents Structured documents Editors User interfaces Grif",
+        "Summary": "Active documents result from a combination of some specic features in documents and somemechanisms in a document manipulation system. In this paper we present the possibilitiesoffered by a structured model of documents and a structured editor for making active docu-ments. Several applications are described (annotations, electronic indexes, cooperative editing,documents as user interfaces, etc.), which show how a documents logical structure may beexploited for developing a variety of active document applications."
+    },
+    {
+        "Date": "MARCH 1994",
+        "Title": "T EX in an industrial environment",
+        "Author": "REINHARD WONNEBERGER",
+        "Keywords": "T EX L A T EX SGML Computer services industry Structured document processing",
+        "Summary": "During its rst decade, TEX has been at home mainly in the academic world. Therefore it comesas a surpriseto nd that it has beenspreading into industry during the last few years,and we tryto outline some highlights of this developmentrst. Then criteria for an industrial environmentapplication area and reasons for using the structured document processing approach are dis-cussed. It is shown what role TEX can play in an integrated document processing environment,and this role is exemplied by a case study from application at EDS."
+    },
+    {
+        "Date": "JUNE 1994",
+        "Title": "Interleaf active documents",
+        "Author": "PAUL M. ENGLISH AND RAMAN TENNETI",
+        "Keywords": "Active documents Document-basedapplications User interfaces Document-objectsystems Lisp",
+        "Summary": "A commercial structured document processing system has been built with an extensible objectsystem. This system is an excellent platform for the design, implementation, and delivery ofactive documents. Examples are discussed."
+    },
+    {
+        "Date": "JUNE 1994",
+        "Title": "The Individualized Electronic Newspaper: an example of an active publication",
+        "Author": "ANJA HAAKE, CHRISTOPH H USER AND KLAUS REICHENBERGER",
+        "Keywords": "Interface design Structured documents Publishing models Publishing architectures",
+        "Summary": "During the last four years the PaVE department at GMD-IPSI experimented with the Indi-vidualized Electronic Newspaper, an active publication that is individualized and composedon demand for a reader, and then delivered electronically. The work concentrated on the userinterface design for active electronic publications and, in particular, on the investigation ofpublishing system architectures supporting the preparation and production of active electronicpublications. The paper introduces two alternative interfaces for an electronic publicationshowing the potential of the electronic medium for publication design. The main part of thepaperpresents our approachto making such publications possible:a combination of structureddocumentsand knowledge-basedtechniquesbasedon a sound publishing model. This approachguided the design of an integrated publication environmentfor the preparation and productionof active documents."
+    },
+    {
+        "Date": "SEPTEMBER 1994",
+        "Title": "A review of multimedia technology and dissemination systems",
+        "Author": "LEON HARRISON",
+        "Keywords": "Multimedia Electronic publishing Delivery systems Standards",
+        "Summary": "The connotations of publishing are undergoing rapid change as technology itself changes.Placing marks on paper (by whatever means), and distributing the result, are perhaps therst thoughts that the word evokes but nowadays it encompasses an ever-widening range ofpreparation, presentation and dissemination methods. Video sources, animation, still imagesand sound samples are now available as methods of imparting knowledge  and all of theseare increasingly reliant on technology-dependent delivery systems.The end-user ofinformation contained in such electronic publications has expectations of the delivery anddisplay mechanisms which have been shaped, in the main, by exposure to the broadcastmedia, whose centrally funded resources are capable of exploiting high-technology solutions.In trying to emulate similar delivery systems at a personal level, the electronic publisherneeds to have a general awareness of what present-day technologies can achieve, togetherwith an appreciation of cost and practical issues. This paper gives a brief survey of thesenewer technologies as seen from todays perspective."
+    },
+    {
+        "Date": "SEPTEMBER 1994",
+        "Title": "Hypertext and multimedia enhancements to the T EX system",
+        "Author": "A. F. CLARK, S. L. CHEAH AND T. K. TAN",
+        "Keywords": "Hypertext Multimedia T EX",
+        "Summary": "Enhancements havebeen made to theTEX system to supporthypertextand multimedia facilities.A special previewer,, has been developed to give access to these features. Using TEXsmechanism, the previewer displays images,line graphics,audio,andvideo,aswellassupporting hypertext; it also permits limited interaction with the underlying operating system.A LTEX style le has been devised to provide access to all these features. Some user feedbackwith the system is described and the effectiveness of the general approach is assessed."
+    },
+    {
+        "Date": "DECEMBER 1994",
+        "Title": "Using the MHEG standard in the hypermedia system Multicard",
+        "Author": "ANTOINE RIZK AND FRANCIS MALEZIEUX ALAIN LEGER",
+        "Keywords": "MHEG Multicard Hypermedia",
+        "Summary": "The MHEG standard will dene a coded representation of multimedia and hypermedia infor-mation objects so as to facilitate exchange of hypermedia applications over various platforms.This standard has been developed entirely independently of existing architectures such asDexter and Dexter like systems such as Multicard, KMS[1] etc.In order for the MHEG standard to succeed, it is important that existing hypermediasystems and applications can be rendered MHEG compatible, rather than these applicationshaving to be rewritten using new MHEG engines.This paper provides a case study of how the MHEG standard could be adopted in one suchhypermedia system, namely Multicard. The aim is to highlight the similarities and differencesof the MHEG standard and Multicard and to provide an idea of the work required in order forsuch a system to read MHEG compatible streams. The paper starts with a brief description ofthe Multicard system, the Dexter model and the MHEG standard."
+    },
+    {
+        "Date": "MARCH 1994",
+        "Title": "Distributed Documents: an architecture for open distributed hypertext",
+        "Author": "A. HATZIMANIKATIS AND I. GAVIOTIS D. CHRISTODOULAKIS",
+        "Keywords": "Hypermedia systems Hypermedia services Distributed systems Open architectures",
+        "Summary": "A conceptual design for our architecture centered around the entities of a hypermedia node,link, anchor and document is initially presented. Each entity has a well-dened interfaceso that the respective instances can cooperate despite the number of different media types.Virtual documents are created as views on other documents borrowing from their content andcustomizing their behavior during navigation and editing.The system functionality is provided by hypertext document objects, acting as providers ofhypermedia services. There are storage and display services which are accessible and consum-able by the local and remote clients spanningthe operating system and workstation boundaries.Due to the object-based approach taken at design and implementation, the incorporation ofnew types of services (general and media specic) is straightforward and integrates smoothlywith the rest of the system."
+    },
+    {
+        "Date": "DECEMBER 1994",
+        "Title": "Typesetting Khmer",
+        "Author": "YANNIS HARALAMBOUS",
+        "Keywords": "Khmer T EX Computer typesetting",
+        "Summary": "Because of the complexity of Khmer script, up to now there has been neither a typesetting sys-tem nor standard encoding for the Khmer language. Presentedin this paper are: (a) a completetypesetting system for Khmer based on TEX, and an ANSI C preprocessor, aswell as (b) a proposalfor an 8-bit encoding table for Khmer information interchange. Problemsof phonic input, subscript and superscriptpositioning, collating order, spelling reforms and hy-phenation are solved, and their solutions described. Finally an alternative solution using 16-bitoutput font tables is briey sketched."
+    },
+    {
+        "Date": "DECEMBER 1994",
+        "Title": "Automatic generation of script font ligatures based on curve smoothness optimization",
+        "Author": "MICHAEL KOKULA",
+        "Keywords": "Automatic ligatures Script fonts Connecting curves Curve smoothness Curve optimiza- tion",
+        "Summary": "The idea of type as a xed geometrical object is shown to be inadequate for script types. Themethod presented creates ligatures between script font glyphs on-the-y, i.e. as a part of theglyph rasterization process. This is done by manipulation of an existing font. So the processdescribed here can be used to give existing fonts the intelligence to join characters correctlywhen being interpreted by a standard font rasterizer or print server.Of vital importance to the method is the natural appearance of the curve serving as theligature backbone. In this article, a new smoothness criterion for curves is developed. Then,a method is presented that creates a curve connecting two given curves in a natural-lookingway  this is done by optimizing a parametric curve by means of the new criterion. With thisalgorithm being integrated into on-the-y generation of script font ligatures, these ligatures getthe required level of quality."
+    },
+    {
+        "Date": "DECEMBER 1994",
+        "Title": "Dynamic optical scaling and variable-sized characters",
+        "Author": "JACQUES ANDR E IR`ENE VATTON",
+        "Keywords": "Optical scaling Variable sized characters Large symbols Dynamic font Parametrized font Grif",
+        "Summary": "First, a surveyon optical scaling is carried out, both from the traditional point of view and fromthat of todays digital typography. Then the special case of large characters, such as braces orintegral signs, is considered. It is shown that such variable-sized symbols should be computedat print time in order to approach the quality of metal typesetting. Finally, an implementationof such dynamic fonts, still in progress in the Grif editor, is described."
+    },
+    {
+        "Date": "DECEMBER 1994",
+        "Title": "Towards a universal auto-hinting system for typographic shapes",
+        "Author": "JACKY HERZ ROGER D. HERSCH",
+        "Keywords": "Digital typography Shape analysis Stem recognition Automatic hinting",
+        "Summary": "This contribution presents a simple method for the automatic recognition and hinting of char-acter structure elements such as horizontal and vertical stems. Stem recognition is based onsuccessive steps such as extraction of straight or nearly straight contour segments, detectionof hidden segments, merging of original and hidden segments into larger segments, sortingof segments into classes according to their slopes and, nally, composition of black and whitestems. Reference values required for character hinting purposes are obtained by evaluatingthe regularity of the font through statistical analysis of features such as stem widths and stemangles. Knowledge about the location of stems and analysis of outline parts between stemsis used in order to produce automatically appropriate grid constraint rules (hints). The pre-sented outline analysis and stem extraction techniques are very general and may be applied tonon-Latin characters as well."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Qualitative analysis of low-level logical structures 1",
+        "Author": "ABDEL BELA ID, JULIAN C. ANIGBOGU AND YANNICK CHENEVOY",
+        "Keywords": "Document analysis Low-level logical structure Qualitative analysis ODA  formalism Library reference",
+        "Summary": "This paperpresentsa qualitative approachto logicalstructure recognitionof library references.The system is driven by a generic model of a reference class and by an ow, given informat, that include code of the characters and information about the typographic styleand the lexical afliation of words. The approach used is based on hypotheses productionand verication about the existence of sub-eld limits in the reference area. At each step ofthe analysis, the generated hypotheses are sorted on the basis of their condence scores andthe most likely hypothesis is analyzed. The result is a structured ow containing, informat, the list of different sub-elds recognized, accompanied with their condence score."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "SIMON: A grammar-based transformation system for structured documents",
+        "Author": "AN FENG AND TOSHIRO WAKAYAMA",
+        "Keywords": "Structured documents Document transformation Document type evolution Document assembly Multiview documents Attribute grammars",
+        "Summary": "SIMON is a grammar-based transformation system for restructuring documents. Its targetapplications include meta-levelspecication ofdocumentassembly,view denition and retrievalfor multiview documents, and document type evolution. The internal document model is basedon attribute grammars,and it interfaceswith externaldocumentmodels suchas SGML throughinput and output conversion. The transformation engine of SIMON is an amalgamation ofsyntax-directed computation and content-oriented computation: the former is through higher-order (and related) extensions of attribute grammars whereas the latter is done by externallydened programs and it is for computation not naturally amenable to the syntax-directedparadigm. The currentimplementation ofSIMON employsthehigher-orderextensionproposedin [1] for the syntax-directed computation, and C++ for the content-oriented computation."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Merging logical and physical structures in documents",
+        "Author": "C ECILE ROISIN 1 AND IR`ENE VATTON 2",
+        "Keywords": "Structured documents Interactive editing Formatting process",
+        "Summary": "Although it is well established that structured documents and generic models bring benets toapplications involving documents, integrating these document models in the formatting pro-cess of interactive editors is still an open problem. In this paper, the problem of laying outand formatting structured documents is investigated, taking into account the DSSSL standard.One key point of this model is the possibility of expressing the logical structure of documentsindependentlyfrom their graphicalaspect.However,this approachinducesa more complexfor-matting process,as two independentstructures have to be merged. This discussion is illustratedby our experience of dynamic formatting in the Grif editor."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Document reuse and document systems",
+        "Author": "DAVID M. LEVY",
+        "Keywords": "Reuse Structured documents Compound documents Document standards ODA SGML OLE",
+        "Summary": "While reuse is currently the focus of much attention in the programming language community,it is also a central, but less noticed, issue in the creation and use of documents, and therefore inthe design of document systems. To a great extent, the work of producing new documents, andnew versions of old documents, involves reusing pieces of previously existing documents,wherereuse involves nding the relevant material, modifying it as needed, and stitching the piecestogether. The objective of this paper is to demonstrate how a focus on reuse can shed light oncurrent efforts to build structured document systems and to design and use standards, such asSGML, ODA, and OLE, that address structured and compound documents."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Scrimshaw: A language for document queries and transformations",
+        "Author": "DENNIS S. ARNON",
+        "Keywords": "Tree pattern matching Document query languages Document conversion SGML",
+        "Summary": "We present a new language for tree pattern matching and transformation called Scrimshaw.It extends to trees the familiar notions of regular expressions, pattern matching, and patternreplacement for strings. As we show by examples, it serves well as both a structured documentquery language and as a language for expressing document transformations. Scrimshaw hasbeen implemented in a C-like language and is in ongoing use."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Transformation of structured documents with the use of grammar",
+        "Author": "EILA KUIKKA MARTTI PENTTONEN",
+        "Keywords": "Type transformations Structured documents Syntax-directed translation schema",
+        "Summary": "In structured text processing systems the need for transformation of document instances isobvious if the structure denition of the document type changes. This article presents a trans-formation method with the use of an extended syntax-directed translation schema and itsimplementation to certain modications in a syntax-directed document processing system cre-ated by the authors. The method uses grammars to dene both the structure of documents andtransformation between structures."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "The prospects of publishing using advanced database concepts",
+        "Author": "KARL ABERER, KLEMENS B OHM AND CHRISTOPH H USER",
+        "Keywords": "SGML Object-oriented database systems Structured document storage Document type denition handling",
+        "Summary": "Publishing is a distributed process which is characterized by the cooperation of differentexperts. The approach of the Integrated Publication and Information Systems Institute (IPSI)in supporting electronic publishing is to build an integrated publication environment. Thepublication of electronic documents demands enhanced support from publishing tools andimposes new challenges on database technology. Taking a hypermedia reference publication asan example, requirements on database technology for the production of electronic publicationsare discussed. Those can be met by using an object-oriented database management system likeVODAK. We present an efcient, exible and application-independent database applicationfor structured document handling (D-STREAT). Our focus is on dynamic Document TypeDenition management."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Mediating interface between hypertext and structured documents",
+        "Author": "KOICHI HAYASHI AND AKIFUMI SEKIJIMA",
+        "Keywords": "Hypertext Structured documents Authoring system Writing process model Document model History tree Multi-level formatting",
+        "Summary": "In this paper we describe a unied document model for an authoring system that takes ad-vantage of both hypertext and structured document models: hypertext, which represents adocument as a network of information fragments freely referencing one another, helps userscreate ideas; and structured document models, which represent a document as a rigid treestructure of document components, help users organize documents and make layouts. Ourdocument model comprises the underlying structure and the surface: the underlying structureis a network structure; and the surface is an interface providing a view of the underlyingstructure. The key features of our document model are: (1) the surface denes tree structuresas marked parts of the underlying structure, and maintains consistency between the networkand tree structures; (2) the surface monitors userswalks in the underlying network and marksthe trails to dene tree structures; and (3) the dened tree structures work as structured docu-ments. Nelumbo, a prototype system, integrates different types of editors that handle featuresof hypertext and structured documents. Users can choose any of the tools at will, and editingwith the tools affects the underlying structure consistently."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Weaving a web: the structure and creation of an object network representing an electronic reference work",
+        "Author": "LOTHAR ROSTEK, WIEBKE M OHR AND DIETRICH H. FISCHER",
+        "Keywords": "Object-oriented document model Hypermedia publication Knowledge acquisition Object network",
+        "Summary": "For the improvement of large-scale electronic publications, such as encyclopaedic referenceworks,we proposean object-orienteddocumentmodelthat in addition to the SGML-structuredtext corpus represents other access structures, in particular a ne-grained, highly structured,tightly interconnected network of domain-specic objects and facts. The paper presents strate-gies and tools for efcientacquisition of the desired objectnetwork into an Editors Workbench.The application context is the, to be published as a print edition by MacmillanPublishers Ltd. in 1996."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "MultiMedia Forum: an interactive online journal",
+        "Author": "KLAUS S ULLOW, INGRID GABEL-BECKER, MARLIES OCKENFELD WOLFGANG PUTZ AND GISELA ROTH",
+        "Keywords": "Online publishing In-house journal SGML Multimedia editing Field test",
+        "Summary": "The MultiMedia Forum (MMF) is an all digital journal supporting the information types text,image, audio, and video. All editing and reading of the MMF is taking place via online access toa central database containing SGML documents, which are connected by hyperlinks enablingthe creation of issues by clustering information. The MMF is used as an in-house journal at theIntegrated Publication and Information Systems Institute (IPSI) and thus serves as the basis ofa eld experiment furnishing results based on practical experience."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Representation and manipulation of music documents in ScEX",
+        "Author": "MIGUEL FILGUEIRAS AND JOS E PAULO LEAL",
+        "Keywords": "Music typesetting Music symbolic notation Music graphic editors",
+        "Summary": "We present the ideas underlying ScEX, a music typesetting system that we are developing at theUniversity of Porto. The focus is on the languages used for representing music documents andon the graphic editor that provides a means for their preparation."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Journal publishing with Acrobat: the CAJUN project",
+        "Author": "PHILIP N. SMITH, DAVID F. BRAILSFORD, DAVID R. EVANS,LEON HARRISON, STEVE G. PROBETS AND PETER E. SUTTON",
+        "Keywords": "Acrobat PostScript CD-ROM Networks Archiving Automatic linking",
+        "Summary": "The publication of material in electronic form should ideally preserve, in a unieddocument representation, all of the richness of the printed document while maintainingenough of its underlying structure to enable searching and other forms of semanticprocessing. Until recently it has been hard to nd a document representation which combinedthese attributes and which also stood some chance of becoming a multi-platformstandard.This paper sets out experience gained within the Electronic Publishing Research Group atthe University of Nottingham in using Adobe Acrobat software and its underlying PDF (Port-able Document Format) notation. The CAJUN project1 (D-ROMcrobatournalssingetworks) began in 1993 and has used Acrobat software to produce electronic versions ofjournal papers for network and CD-ROM dissemination. The paper describes the projectsprogress so far and also gives a brief assessment of PDFs suitability as a universal documentinterchange standard."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "MarkItUp! An incremental approach to document structure recognition",
+        "Author": "PETER FANKHAUSER AND YI XU",
+        "Keywords": "Document structure recognition Learning by example Structure unication SGML",
+        "Summary": "This paper presents, a system to recognize the structure of untagged electronicdocuments which contain subdocuments with similar format. For these kinds of documentsmanual structure recognition is a highly repetitive task. On the other hand, the specicationof recognition grammars requires signicant intellectual effort. Our approach uses manuallystructured examples to incrementally generate recognition grammars by means of techniquesfor learning by example. Users can structure example portions of a document by insertingmarkups. then abstracts and unies the structure of the examples. On this basis ittries to structure anotherexample with similar format. Userscancorrector acceptthe producedstructure. With every accepted example thereby a grammar is acquired and gradually rened,which can be used to successfully structure the other portions of the document."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "A constraint-based editor for linguistic scholars",
+        "Author": "ROBERT A. MORRIS EDWARD M. BLACHMAN CHARLES MEYER",
+        "Keywords": "Constraint-based Corpus linguistics Markup SGML ICE Text Encoding Initiative",
+        "Summary": "A constraint-basedinteractive structure editor for use by linguists is described. Multiple, inter-related constraint sets are supported. A novel search mechanism is introduced which modiesitself locally dependent on document structure as the search progresses."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Specication of temporal constraints in multimedia documents using HyTime",
+        "Author": "ROBERT ERFLE",
+        "Keywords": "Multimedia Structured documents HyTime SGML MHEG",
+        "Summary": "Multimedia documents also include time dependent media like audio and video. In contrast totraditional text documents temporal constraints have to be determined that tell a presentationapplication when and for how long certain parts of the document have to be presented. Thepaper shows how temporal constraints may be specied with HyTime. An analysis of differentapproaches covering the specication of temporal constraints resulted in a catalogue of rele-vant issues. They are explained in the context of an abstract document model. Then it is shownhow each issue may be specied with HyTime introducing and explaining all necessary con-structs and principles. Several HyTime encoded example scenarios illustrate the actual usageof HyTime building blocks."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "A mixed approach toward an efcient logical structure recognition from document images",
+        "Author": "TAO HU AND ROLF INGOLD",
+        "Keywords": "Documentstructure analysis Logical structure recognition System architecture Fuzzy logic Top-down analysis Analysis strategy Dynamic programming Heuristics Error-tolerating parser",
+        "Summary": "This paper presents our efforts to improve the efciency of a document structure analysissystem, which intends to analyse the complete logical structure of a document. The usage offuzzy logic improves the system robustness; however, the problem of system efciency wasrevealed to be critical.Different techniques have been studied to overcome this problem. Dynamic programming,heuristics, and dynamic threshold are used for parsing, which achieves a linear complexity. Anew concept of key step, based on the principle of sub-goals, is incorporated with a multi-passand mixed top-down analysis strategy, which avoids the combinatorial explosion of the numberof search paths. Finally, the paper shows that the error-tolerating parser based on an analysisgraph seems more realistic and efcient than an error-correcting parser."
+    },
+    {
+        "Date": "DECEMBER 1989",
+        "Title": "Drawing trees nicely with T EX",
+        "Author": "A. BR UGGEMANN-KLEIN D. WOOD",
+        "Keywords": "Trees Graphics Drawing algorithms T EX",
+        "Summary": "We present a new solution to the tree drawing problem that integrates an excellent treedrawing algorithm into one of the best text processing systems available. More precisely, wepresent a TEX macro package called TreeTEX that produces drawings of trees from a purelylogical description. Our approach has three advantages: labels for nodes can be handledin a reasonable way; porting TreeTEX to any site running TEX is a trivial operation; andmodularity in the description of a tree and TEXs macro capabilities allow for libraries ofsubtrees and tree classes.In addition, TreeTEX has an option that produces drawings that make the ofthe trees more obvious to the human eye, even though they may not be as aestheticallypleasing."
+    },
+    {
+        "Date": "SEPTEMBER 1988",
+        "Title": "Page description languages: development,implementation and standardization",
+        "Author": "A. L. OAKLEY A. C. NORRIS",
+        "Keywords": "Page description languages Laser printers RIP Standards",
+        "Summary": "Advances in laser technology have facilitated the development of printers which accept inputin the form of pages rather than the lines characteristic of impact printers. Concurrently,page description languages (PDLs) have been designed to facilitate the integration of complextext and graphics for printing. PDLs are described in a variety of ways and the paperstarts with a rationalization of these viewpoints. It then traces the development of PDLs,describes their main characteristics, and looks at their relationship with laser printers. Asurvey of current implementations is then followed by an analysis of the relationship ofthese languages to other schemes for the description of printed images. Finally, the paperconsiders the requirements for a PDL standard."
+    },
+    {
+        "Date": "APRIL 1989",
+        "Title": "Parallel processing in document formatting:an experiment using  PIC",
+        "Author": "DAVID F. BRAILSFORD AND DAVID R. EVANS",
+        "Keywords": "Document processing Parallel processing PIC  Benchmarking",
+        "Summary": "The manipulation of text and graphics within a computer provides opportunities for theexploitation of parallel processing. It is straightforward to identify blocks of material such ascomplete diagrams or paragraphs of text which can be processed in parallel and which havemodest requirements for synchronization and communication between the blocks.Thefeatures of a problem which lead to an elegant and efcient application of parallelism areidentied, including good locality of reference, a small state vector of shared globalvariables and a clear relationship between the material on the page and the cost ofprocessing it. This last-named attribute enables a problem to be partitioned among multipleprocessors by a static compile-time analysis rather than relying on costly run-time allocationstrategies. The PIC program for line diagrams has been modied to allow for such a staticallocation and to permit synchronization and rendezvous between multiple invocations of theprogram. The aim of this was to investigate whether worthwhile gains in performance wouldresult from subdividing a diagram drawn with PIC and then processing the various portionsin parallel. A series of benchmark timings is presented which show the degree of overlapobtainable in processing separate parts of a diagram together with the inherent limits toparallelism imposed by the atomic entities in PIC and the inevitable communicationoverheads between the parallel processes. The design features of the PIC language areidentied which made it suitable for these researches and we are able to draw certain generalconclusions about desirable properties of text and graphic entities which are to be processedin parallel. This in turn enables us to identify design features of the underlying softwarewhich will facilitate parallel processing."
+    },
+    {
+        "Date": "APRIL 1988",
+        "Title": "Tools for printing indexes",
+        "Author": "JON L. BENTLEY AND BRIAN W. KERNIGHAN",
+        "Keywords": "indexing awk Unix troff document preparation",
+        "Summary": "This paper describes a set of programs for processing and printing the index for a book or amanual. The input consists of lines containing index terms and page numbers. The programscollect multiple occurrences of the same terms, compress runs of page numbers, createpermutations (e.g., index, book from book index), and sort them into proper alphabeticorder. The programs can cope with embedded formatting commands (size and font changes,etc.), with roman numeral page numbers, and with terms. The programs do not help withthe original creation of index terms.The implementation runs on the UNIXoperating system. It uses a long pipeline of short programs rather than a single program in a conventional language. This structuremakes the programs easy to adapt or augment to meet special requirements that arise indifferent indexing styles. The programs were intended to be used with, but can be usedwith a formatter like TEX with minor changes.An appendix contains a complete listing of the programs, which total about 200 lines."
+    },
+    {
+        "Date": "APRIL 1989",
+        "Title": "The importance of phase in the spectra of digital type",
+        "Author": "GUOZHEN DUAN  AND ROBERT A. MORRIS",
+        "Keywords": "Digital type Signal reconstruction Phase information",
+        "Summary": "The role of phase in the spectra of digital type is examined. Characters and text are foundto have more information in the phase than in the magnitude, just as for natural images. Forletterforms, this means that the position of features, not their size, has the greatest inuenceon their discrimination. An iterative reconstruction of characters from their phase and froma magnitude characteristic only of the font, not the individual characters, is examined."
+    },
+    {
+        "Date": "APRIL 1989",
+        "Title": "Why use SGML?",
+        "Author": "DAVID BARRON",
+        "Keywords": "SGML Markup Generalised markup Formatters",
+        "Summary": "The Standard Generalised Markup Language (SGML) is a recently-adopted InternationalStandard (ISO 8879), the rst of a series of proposed Standards in the area of InformationProcessing  Text and Ofce Systems. The paper presents some background material onmarkup systems, gives a brief account of SGML, and attempts to clarify the precise natureand purpose of SGML, which are widely misunderstood. It then goes on to explore thereasons why SGML should (or should not) be used in preference to older-established systems."
+    },
+    {
+        "Date": "MAY 1990",
+        "Title": "vi.iv , a bi-directional version of the vi  full-screen editor",
+        "Author": "URI HABUSHA AND DANIEL BERRY ",
+        "Keywords": "Bi-directional Editing Full-screen editor Multi-lingual Vi",
+        "Summary": "This paper describes the semantics, design, and implementation of, a bi-directional revi-sion of, the standard, full-screen editor available on UNIXsystems. The main goal was toproduce the new program with as little change as possible to the semantics and implementa-tion of the original.UNIX"
+    },
+    {
+        "Date": "SEPTEMBER 1988",
+        "Title": "A search strategy for large document bases",
+        "Author": "DARIO LUCARELLA",
+        "Keywords": "Information storage and retrieval Retrieval models Similarity computation Document access methods Search algorithms Search efciency",
+        "Summary": "In this paper, we emphasize the need of modelling the inherent associated withthe information retrieval process. Within this context, a search strategy is proposed forlocating documents which are to be relevant to a given query. A notion of closenessbetween document(s) and query is introduced and the implementation of an improvedalgorithm for the identication of the closest document set is presented with emphasis oncomputational efciency."
+    },
+    {
+        "Date": "SEPTEMBER 1988",
+        "Title": "Parallel processing and document layout",
+        "Author": "HEATHER BROWN",
+        "Keywords": "Structured documents ODA (Ofce Document Architecture) Document layout Parallel layout algorithms Occam Transputers",
+        "Summary": "Interactive editing and layout of high quality multi-media documents is a demandingapplication that is limited by the processing power available from current workstations. Thisshort paper takes a preliminary look at the opportunities for exploiting parallelism within thedocument layout process, and suggests that radically new ways of thinking may be needed totake advantage of the enormous parallel processing capabilities offered by a new generationof workstations based on congurable networks of Transputers."
+    },
+    {
+        "Date": "SEPTEMBER 1988",
+        "Title": "Computerized Braille typesetting: another view of mark-up standards",
+        "Author": "R. ARRABITO AND H. J URGENSEN",
+        "Keywords": "Braille Markup Typesetting T EX",
+        "Summary": "Recent advances in computerized text processing will not only revolutionize methods ofpublication, but may also increase the availability of information for the handicappedespecially for blind or visually impaired individuals. In this paper we discuss the feasibilityof a direct translation of typesetter input into Braille output with special emphasis onscientic and mathematical text. To do so we use the TEX computer typesetting systemas a paradigm; however, the essence of our conclusions is true for other systems too. Webriey describe the present state of a related implementation project. Our study derivesseveral recommendations concerning the standards for mark-up languages and for Brailleencodings. They strongly support the development of semantic mark-up."
+    },
+    {
+        "Date": "OCTOBER 1989",
+        "Title": "Can structured formatters prevent train crashes?",
+        "Author": "JACQUES ANDR E",
+        "Keywords": "Structured formatters Document reliability Typographic errors",
+        "Summary": "A typographic layout error is analysed for its likely effect as being one of the causes of atrain crash. Arguments are put forward to show that this error could not have occurred ifa structured text formatter had been used."
+    },
+    {
+        "Date": "OCTOBER 1989",
+        "Title": "I N S CRIPT   a C-like preprocessor for P OST S CRIPT *",
+        "Author": "JAKOB GONCZAROWSKI",
+        "Keywords": "High-level language interface P OST S CRIPT Program readability Stack languages Variable allocation",
+        "Summary": "INSCRIPT is a front-end for the POSTSCRIPT page-description language. INSCRIPT is easier towrite (and read) than POSTSCRIPT as it uses high-level syntax, performs automatic stackmanipulation and denes a clearer interface to the POSTSCRIPT imaging model. INSCRIPTprograms for graphic imaging can be developed interactively, or compiled to producePOSTSCRIPT code for off-line use.This paper describes the INSCRIPT environment, its language features, its implementation,and the way POSTSCRIPT code is generated from its various constructs.Possible enhancements to POSTSCRIPT are suggested which would turn it into a betterexecute engine for code generated from high level languages.Direct POSTSCRIPTprogramming would then be much easier as well."
+    },
+    {
+        "Date": "DECEMBER 1989",
+        "Title": "The implementation of the Amsterdam SGML Parser",
+        "Author": "JOS WARMER AND SYLVIA VAN EGMOND",
+        "Keywords": "SGML Structured documents Document preparation Parser generators",
+        "Summary": "The Standard Generalized Markup Language (SGML), is an ISO Standard that species alanguage for document representation. This paper gives a short introduction to SGML anddescribes the Amsterdam SGML Parser and the problems we encountered in implementingthe Standard. These problems include interpretation of the Standard in the places where it isambiguous and the technical problems in parsing SGML documents."
+    },
+    {
+        "Date": "APRIL 1988",
+        "Title": "Linking and searching within hypertext",
+        "Author": "P. J. BROWN",
+        "Keywords": "Hypertext Find Command Searching in Hypertext Guide",
+        "Summary": "The Find command is a familiar mechanism for travelling round linear documents. Inhypertext documents, on the other hand, the primary method of travel is by means of built-inlinks. The paper considers how a Find command can be integrated into a hypertext system.There are two main issues:What does it mean to search a hypertext document?Can the two methods of travel be integrated in such a way that the user does notbecome disoriented?"
+    },
+    {
+        "Date": "DECEMBER 1989",
+        "Title": "Do we need maps to navigate round hypertext documents?",
+        "Author": "P.J. BROWN",
+        "Keywords": "Hypertext Navigation Map Guide",
+        "Summary": "In many hypertext systems users are provided with a map of the underlying directed graph oftheir hypertext document. Arguably this is like lling a program with goto statements andthen placating the readers of the program by providing a map of all the gotos. In this paperwe present an alternative approach which goes some way  but not the whole way towards providing a hypertext user interface that distances the reader from the underlyingdirected graph."
+    },
+    {
+        "Date": "APRIL 1988",
+        "Title": "Interactively editing structured documents",
+        "Author": "RICHARD FURUTA VINCENT QUINT JACQUES ANDR E",
+        "Keywords": "Document preparation systems Structured documents Grammatically-dened generic docu- ment structures User interfaces Design experience",
+        "Summary": "Document preparation systems that are oriented to an authors preparation of printedmaterial must permit the exible specication, modication, and reuse of the contents of thedocument. Interactive document preparation systems commonly have incorporated simplerepresentationsan unconstrained linear list of document objects in the What You SeeIs What You Get () systems. Recent research projects have been directed at theinteractive manipulation of richer tree-oriented representations in which object relationshipsare constrained through grammatical specication. The advantage of such representationsis the increased exibility that they provide in the reusability of the document and itscomponents and the more powerful user commands that they permit. We report on theexperience gained from the design of two such systems. Although the two systems weredesigned independently of each other, a common set of issues, representations, and techniqueshas been identied. An important component of these projects has been to examine the user interface, retaining the naturalness of their user interface but eliminatingtheir dependencies on the physical-page representation. Aspects of the design of such systemsremain open for further research. We describe these open research problems and indicatesome of the further gains that may be achievable through investigation of these documentrepresentations."
+    },
+    {
+        "Date": "OCTOBER 1989",
+        "Title": "VORTEXT: The hard-backed screen",
+        "Author": "VICTORIA A. BURRILL* AND JOHN A. OGDEN",
+        "Keywords": "Hypertext Electronic books",
+        "Summary": "With the current information explosion in the number of books and periodicals publishedannually coupled with the decreasing costs and availability of wordprocessors, it is authors,not publishers, who are becoming the main controllers of a document.If a document is written using a computer then it obviously makes sense for it to be readon the same medium. But how will the ordinary man-in-the-street react to this? How will hereact to sitting down at a terminal instead of browsing through bookshelves? How will hereact to scanning a screenful of text rather than feeling the physicalness of a real book?What facilities will he expect? What facilities will he want?This paper is the result of three and a half years research using VORTEXT  VictORiasTEXT reading system  a unique interface which begins to explore the limits, possibilities(and pitfalls!) of extending the real book metaphor across from its traditional papermedium to its future computerized form."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Separate compilation of structured documents",
+        "Author": "MICHAEL J. GROVES AND DAVID F. BRAILSFORD",
+        "Keywords": "Link editing Separate compilation Structured documents Formatting Troff PDF",
+        "Summary": "This paper draws a parallel between document preparation and the traditional processes ofcompilation and link editing for computer programs. A block-based document model is de-scribedwhich allows for separatecompilation of variousportions ofa document.Theseportionsare brought together and merged by a linker program, called, whose pilot implemen-tation is based on and on its underlying intermediate code. In the light of experienceswith the requirements for a universal object-module language for documents are dis-cussed. These requirements often resemble the characteristics of the intermediate codes usedby programming-language compilers but with interesting extra constraints which arise fromthe way documents are executed."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Analysing character shapes by string matching techniques",
+        "Author": "JACKY HERZ ROGER D. HERSCH",
+        "Keywords": "Digital typography Shape analysis String matching Shape similarities Implicit design intentions",
+        "Summary": "Preliminary attempts at automatic analysis and synthesis of typographic shapes are described.String matching techniques are used to recover implicit relationships between character parts.A knowledge base describing local character shape parts is created and is used in order topropagate local shape modications across different characters."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Rasterizing the outlines of fonts",
+        "Author": "FIAZ HUSSAIN MICHAEL L. V. PITTEWAY",
+        "Keywords": "Algorithm B ezier Conic Fonts Rasterize Spline",
+        "Summary": "Two mathematical descriptions of outlines which have found acceptability and widespread us-age are the Bezier cubic and the general conic forms (which include the distinctive parabolicformat). Though there are good reasons for employing just the general conic, PostScript char-acterises fonts in terms of splines based on four-point Bezier cubics.In order to improve the efciency with which these PostScript fonts can be rendered, theequation of the Bezier cubic is here reduced to the non-parametric form required to exploit anefcient cubic tracking algorithm rst presented in 1968. Although successful in most cases,the occasional breakdowns are both spectacular and disastrous. The cause of the problem isanalysed, and possible solutions suggested."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Variable width splines:a possible font representation?",
+        "Author": "R. VICTOR KLASSEN",
+        "Keywords": "Strokes Scaling Typography Offset curves Variable width splines",
+        "Summary": "Many fonts derive from stroke-based ancestry. Pressure applied to the pen or brush providedsome variation in the stroke width, which dened a region on each side of a centreline. A simplerepresentation of fonts as variable width strokes is presented in this paper. Advantages includea good rst step toward typographic scaling (stroke width scales independently of overallscale factor), and preservation of topology at low resolutions (minimum stroke width can beenforced). A chief disadvantage is the lack of experience designing fonts in this paradigm, orbuilding routines to convert from other paradigms."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Coordinate-independent font description using Kanji as an example",
+        "Author": "MARTIN J. D URST",
+        "Keywords": "Abstract character description Coordinate- independent font Large fonts Kanji Prolog",
+        "Summary": "Abstract, font-independent character descriptions are important for a systematic approach toautomated and semi-automated font design. This is particularly so for large character sets suchas Kanji. The paper denes a completely coordinate-independent notation for Kanji, whichcontains all the necessary information to produce legible character sketches."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Optical font recognition from projection proles",
+        "Author": "ABDELWAHAB ZRAMDINI AND ROLF INGOLD",
+        "Keywords": "Font recognition Projection proles Discrimination power Bayesian classier",
+        "Summary": "This paper presents a statistical approach for font attribute recognition based on featuresextracted from projection proles of text lines and using a Bayesian classier. The presentedfeatures allow the discrimination of the font weight, slope and size."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "A curve tting algorithm for character fonts",
+        "Author": "KOICHI ITOH 1 AND YOSHIO OHNO",
+        "Keywords": "Curve tting algorithm Grey-level characters Kanji characters",
+        "Summary": "This paper presents an algorithm that automatically generates outline fonts from a grey-levelimage of a character obtained by a scanner.Our algorithm begins by extracting contour pointsfrom the image and dividing the points into a number of segments at the corner points. Thenext step is tting a piecewise cubic Bezier curve to each segment.To t cubic Bezier curves to segments, we use least-squares tting, without xing the endpoints of the curves. We locate the end points by computing the intersection of the adjoiningcurves. This algorithm greatly improves the shape of the corner of the outline fonts."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Parametrization of PostScript fonts through METAFONT   an alternative to Adobe Multiple Master fonts",
+        "Author": "YANNIS HARALAMBOUS",
+        "Keywords": "Font design PostScript",
+        "Summary": "In this paper we present a new method of parametrizing PostScript fonts in order to createfont families. By changing parameter values one can obtain different weights, condensed orexpanded versions, smallcapsaswellas optically scaled fonts.Thetoolusedto parametrizePost-Script fonts is D. E. Knuths program. Instead of designing a font from scratch, is used as an extrapolator of existing PostScript fonts: out of the informationcontained in them we build a meta-font; for every choice of parameter values, special versionsof allow us to return to PostScript and produce a new PostScript font."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Error diffusion on an adaptive raster",
+        "Author": "THOMAS ZEGGEL AND OLOF BRYNGDAHL",
+        "Keywords": "Halftoning Error diffusion",
+        "Summary": "The principles of a new halftoning algorithm are presented. The idea is to use error diffusionnot on a xed raster, but to adapt the raster to the properties of the original continuous-toneimage, e.g. the local intensity. Examples show the advantages of this approach."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Digital halftoning with texture control",
+        "Author": "THOMAS SCHEERMESSER AND OLOF BRYNGDAHL",
+        "Keywords": "Halftoning Texture Fourier spectrum",
+        "Summary": "Depending on the characteristics of the output device and the specic application, various ex-pectations from halftoned images exist. Good reproduction of average grey values is usuallydemanded from images intended for visual perception. Because textures can drastically inu-ence the appearance of a binary image, it is desirable to control their occurrence. In this paperwe present a spectral approach to this problem, and an algorithm which is able to control theoccurrence of specic textures as well as ensuring good continuous-tone reproduction."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Performance differences between Times and Helvetica in a reading task",
+        "Author": "RUDI W. DE LANGE, HENDRY L. ESTERHUIZEN AND DEREK BEATTY",
+        "Keywords": "Legibility Sans serif typeface Roman typeface Reading task Times Roman Helvetica",
+        "Summary": "Typographersand printers often regardseriffed or roman typefaces as more legible and appro-priate for reading material than typefaces without serifs. Authors contend that readers preferroman above sans serif, that it is read faster, and that the comprehensionrate is possibly higherwhen text is set in a roman typeface.The absence of satisfactory empirical data to prove these assumptions, and the importanceof legibility in academic reading material, motivated this study. The aim of the study was todetermine the comparative legibility of sans serif and roman typefaces.Four hundred and fty primary school subjects from nine different schools were usedin a control group pre-test, post-test research design where four different experiments werecompleted.Romans and sans serifs were found to be equally legible, as no signicant statistical differ-ence was found between the reading speed,scanning speed, accuracyand comprehensionat the0.05 level.Theseresults are in contrastto the assumption that romansare more legible than sansserifs.They can be interpreted as promising for graphic designers and typographers, as it appearsthat legibility will not necessarily be sacriced when certain reading material is set in a sansserif typeface."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Improving the recognition accuracy of text recognition systems using typographical constraints",
+        "Author": "REN E SENNHAUSER",
+        "Keywords": "Text recognition Recognition accuracy Spelling correction Typographicalconstraints Stem matching Typographical distance measure",
+        "Summary": "Spelling correction techniques can be used to improve the recognition accuracy of text recog-nition systems. In this paper a new spelling-error model is proposed that is especially suitedto the correction of recognition errors occurring during the recognition of printed documents.An implementation of this model is described that exploits typographical constraints derivedfrom character shapes. In particular, the fact is used that vertical strokes in character imagesare seldom misrecognised. Experimental results show: 1) that the sizes of candidate word setsare substantially reduced; and 2) that the probability that the wrong candidate word is cho-sen is reduced by an average factor of approximately 2 when compared to spelling correctiontechniques without the use of typographical constraints."
+    },
+    {
+        "Date": "DECEMBER 1993",
+        "Title": "Journal publishing with Acrobat: the CAJUN project",
+        "Author": "PHILIP N. SMITH, DAVID F. BRAILSFORD, DAVID R. EVANS,LEON HARRISON, STEVE G. PROBETS AND PETER E. SUTTON",
+        "Keywords": "Acrobat PostScript CD-ROM Networks Archiving Automatic linking",
+        "Summary": "The publication of material in electronic form should ideally preserve, in a unieddocument representation, all of the richness of the printed document while maintainingenough of its underlying structure to enable searching and other forms of semanticprocessing. Until recently it has been hard to nd a document representation which combinedthese attributes and which also stood some chance of becoming a multi-platformstandard.This paper sets out experience gained within the Electronic Publishing Research Group atthe University of Nottingham in using Adobe Acrobat software and its underlying PDF (Port-able Document Format) notation. The CAJUN project1 (D-ROMcrobatournalssingetworks) began in 1993 and has used Acrobat software to produce electronic versions ofjournal papers for network and CD-ROM dissemination. The paper describes the projectsprogress so far and also gives a brief assessment of PDFs suitability as a universal documentinterchange standard."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Dynamic regularisation of intelligent outline fonts",
+        "Author": "BEAT STAMM",
+        "Keywords": "Font representation Dynamic regularisation Medium and low resolution font-scaling",
+        "Summary": "This paper introduces a novel way to perform dynamic regularisation of outline fonts. Inthe proposed font representation, the characters are decomposed into the components,,, and. These components are scaled and mostly.Togetherwith,this implies regularisation of the outlineswithout explicit grid-tting, instructions, or hints. As a result, a single font representationpermits font-scaling at increasinglevels of detail, along with increasingtype size and resolution."
+    },
+    {
+        "Date": "SEPTEMBER 1993",
+        "Title": "Object-orientation and extensibilityinafont-scaler",
+        "Author": "BEAT STAMM",
+        "Keywords": "Font representation Medium and low-resolution font-scaling Object-orientation Contour and rendering independence",
+        "Summary": "Todays font-scalers generate screenfonts with acceptable quality on-the-y from a genericfont representation. However, as closed systems they discourage the integration of separatesolutions to different aspects of font-scaling. This paper illustrates anthat allows for both. Rened solutions can be packagedseparately into intelligent contour and rendering objects. The approach results in a that masters complexity by concept rather than industriousness."
+    },
+    {
+        "Date": "DECEMBER 1989",
+        "Title": "Automatically transforming regularly structured linear documents into Hypertext 1",
+        "Author": "RICHARD FURUTA, CATHERINE PLAISANT, AND BEN SHNEIDERMAN",
+        "Keywords": "Hypertext conversion Document structure Conversion methodology",
+        "Summary": "Fully automatic conversion of a paper-baseddocument into hypertextcan be achieved in manycases if the original document is naturally partitioned into a collection of small-sized piecesthat are unambiguously and consistently structured. We describe the methodology that wehave used successfully to design and implement several straightforward conversions from theoriginal documents machine-readable markup."
+    }
+]

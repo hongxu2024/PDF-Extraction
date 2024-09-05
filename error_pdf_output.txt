@@ -1,0 +1,46 @@
+PDF_FirstPage_XML\authsys.pdf does not have summary
+PDF_FirstPage_XML\berry.pdf does not have key words
+PDF_FirstPage_XML\biodetai.pdf is a wrong format file
+PDF_FirstPage_XML\colopho1.pdf does not have summary
+PDF_FirstPage_XML\colopho2.pdf does not have summary
+PDF_FirstPage_XML\editori0.pdf is an Editorial file
+PDF_FirstPage_XML\editori1.pdf is an Editorial file
+PDF_FirstPage_XML\editori2.pdf is an Editorial file
+PDF_FirstPage_XML\ep039rbs.pdf does not have key words
+PDF_FirstPage_XML\ep040rjn.pdf does not have key words
+PDF_FirstPage_XML\ep041rsr.pdf does not have key words
+PDF_FirstPage_XML\ep047rar.pdf does not have key words
+PDF_FirstPage_XML\ep049ps.pdf does not have summary
+PDF_FirstPage_XML\ep050cb.pdf does not have summary
+PDF_FirstPage_XML\ep051rdc.pdf does not have key words
+PDF_FirstPage_XML\ep055rns.pdf does not have key words
+PDF_FirstPage_XML\ep060ph.pdf does not have summary
+PDF_FirstPage_XML\ep068rdb.pdf does not have key words
+PDF_FirstPage_XML\ep071br1.pdf does not have key words
+PDF_FirstPage_XML\ep071br2.pdf does not have key words
+PDF_FirstPage_XML\ep071ed.pdf is an Editorial file
+PDF_FirstPage_XML\ep072ed.pdf is an Editorial file
+PDF_FirstPage_XML\ep073ed.pdf is an Editorial file
+PDF_FirstPage_XML\ep074ed.pdf is an Editorial file
+PDF_FirstPage_XML\ep121lc.pdf does not have key words
+PDF_FirstPage_XML\epdxb023.pdf does not have summary
+PDF_FirstPage_XML\eped0021.pdf is an Editorial file
+PDF_FirstPage_XML\eped0023.pdf is an Editorial file
+PDF_FirstPage_XML\eped011.pdf is an Editorial file
+PDF_FirstPage_XML\eped012.pdf is an Editorial file
+PDF_FirstPage_XML\eped022.pdf is an Editorial file
+PDF_FirstPage_XML\eped024.pdf is an Editorial file
+PDF_FirstPage_XML\eped031.pdf is an Editorial file
+PDF_FirstPage_XML\eped032.pdf is an Editorial file
+PDF_FirstPage_XML\eped033.pdf is an Editorial file
+PDF_FirstPage_XML\eped034.pdf is an Editorial file
+PDF_FirstPage_XML\eped041.pdf is an Editorial file
+PDF_FirstPage_XML\eped042.pdf is an Editorial file
+PDF_FirstPage_XML\eped043.pdf is an Editorial file
+PDF_FirstPage_XML\eped044.pdf is an Editorial file
+PDF_FirstPage_XML\eped052.pdf is an Editorial file
+PDF_FirstPage_XML\eped053.pdf is an Editorial file
+PDF_FirstPage_XML\eped054.pdf is an Editorial file
+PDF_FirstPage_XML\eped0601.pdf is an Editorial file
+PDF_FirstPage_XML\eped0602.pdf is an Editorial file
+PDF_FirstPage_XML\zapf.pdf does not have summary
