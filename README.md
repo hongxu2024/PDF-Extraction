@@ -1,7 +1,6 @@
 # PDF-Extraction
 This project aims at extracting metadata(including date, title, author, summary, keywords) from a specific corpus of academic PDF documents. 
-![image](https://github.com/user-attachments/assets/80a05ae8-54fb-4649-8467-3b239d3a74dd)
-<img src="https://github.com/user-attachments/assets/80a05ae8-54fb-4649-8467-3b239d3a74dd" width="210px">
+<img src="https://github.com/user-attachments/assets/80a05ae8-54fb-4649-8467-3b239d3a74dd" width="260px">
 
 # How to run it
 # run extract_multiply_PDF_for_XML.py
